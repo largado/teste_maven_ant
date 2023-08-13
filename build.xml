@@ -1,0 +1,13 @@
+<project name="teste_maven_ant" default="compilar">
+    <description>
+        projeto teste automacao com ant
+    </description>
+
+    <target name="compilar" description="executa compilacao do codigo">
+        <javac srcdir="src" destdir="out" />
+    </target>
+
+    <target name="gerajar" depends="compilar">
+
+    </target>
+</project>
